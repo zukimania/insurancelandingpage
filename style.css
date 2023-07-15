@@ -222,7 +222,7 @@ div .icon{
     }
     .head{
         margin: auto;
-        height: 60vh;
+        height: 70vh;
         text-align: center;
         width: 100%;
         margin-bottom: 0%;
@@ -256,7 +256,7 @@ div .icon{
         gap: 50px;
     }
     .third-sec{
-        width: 70%;
+        width: 50%;
         flex-direction: column;
         text-align: center;
         margin: auto;
@@ -295,10 +295,7 @@ div .icon{
 }
 
 @media screen and (max-width:600px) {
-    .how-1 img{
-        scale: 0.8;
-        margin-left: -10%;
-    }
+   
 }
 @media screen and (max-width:768px) {
     .head{
@@ -308,10 +305,9 @@ div .icon{
         font-size: 1.3rem;
     }
     .third-sec{
-        width: 90%;
+        width: 100%;
     }
     .how-1 img{
-        scale: 0.8;
-        margin-left: -20%;
+        width: 100%;
     }
 }
