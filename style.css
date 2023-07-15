@@ -299,7 +299,7 @@ div .icon{
 }
 @media screen and (max-width:768px) {
     .head{
-        height: 70vh;
+        height: 80vh;
     }
     .head p{
         font-size: 1.3rem;
