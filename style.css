@@ -79,7 +79,7 @@ div .icon{
 }
 .head{
     margin-top: 10%;
-    max-width: 100%;
+    /* max-width: 100%; */
     margin-left: 10%;
     color: #fff;
 }
@@ -178,7 +178,8 @@ div .icon{
        .navbar {
           display: none;
           position: absolute;
-          top: 9%;
+          position: fixed;
+          top: 0%;
           left: 0;
           width: 70%;
           height: 100vh;
@@ -187,7 +188,7 @@ div .icon{
           transition: ease-in 2s;
           z-index: 99999;
       }
-
+    
       .navbar a {
           display: block;
           padding: 30px;
@@ -295,11 +296,13 @@ div .icon{
 }
 
 @media screen and (max-width:600px) {
-   
+     .head{
+        height: 80vh;
+    }
 }
 @media screen and (max-width:768px) {
     .head{
-        height: 80vh;
+        height: 70vh;
     }
     .head p{
         font-size: 1.3rem;
